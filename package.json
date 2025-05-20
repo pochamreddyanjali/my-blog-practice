@@ -1,0 +1,23 @@
+{
+  "name": "my-blog-practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pochamreddyanjali/my-blog-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pochamreddyanjali/my-blog-practice/issues"
+  },
+  "homepage": "https://github.com/pochamreddyanjali/my-blog-practice#readme",
+  "dependencies": {
+    "lodash": "4.17.10"  // This version has known vulnerabilities
+  }
+}
