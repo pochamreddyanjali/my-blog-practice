@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"  # Change this based on your project (e.g., "pip" for Python)
+    directory: "/"  # Location of your dependency file (e.g., "package.json" or "requirements.txt")
+    schedule:
+      interval: "weekly"
+
