@@ -1,0 +1,15 @@
+name: CI Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dummy-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Simulate test step
+        run: echo "No tests to run, but workflow is working ✅"
