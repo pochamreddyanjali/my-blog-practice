@@ -1,0 +1,13 @@
+name: Release
+on:
+  push:
+    branches: [main]
+    paths: ['pyproject.toml']
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mathieudutour/github-tag-action@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
